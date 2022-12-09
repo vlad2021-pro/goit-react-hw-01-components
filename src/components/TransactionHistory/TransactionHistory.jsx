@@ -1,6 +1,6 @@
-import PropTypes from 'prop-types';
-import {TransactionListHistory, TransactionHeader, TransactionHeaderCase, TransactionColumn, TransactionString  } from './TransactionHistory.styled'
-export const TransactionHistory = ({items}) => {
+  import PropTypes from 'prop-types';
+  import {TransactionListHistory, TransactionHeader, TransactionHeaderCase, TransactionColumn, TransactionString  } from './TransactionHistory.styled'
+  export const TransactionHistory = ({items}) => {
   return <div>
   <TransactionListHistory>
   <thead>

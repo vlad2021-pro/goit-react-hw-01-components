@@ -1,7 +1,7 @@
-import PropTypes from 'prop-types';
-import {Container, StatTitle, StatList, StatItem, StatItemLabel,StatItemPercentage} from './Statistics.styled'
+  import PropTypes from 'prop-types';
+  import {Container, StatTitle, StatList, StatItem, StatItemLabel,StatItemPercentage} from './Statistics.styled'
 
-export const Statistics = ({title, stats}) => {
+  export const Statistics = ({title, stats}) => {
   return (
   <Container>
   {title && <StatTitle>{title}</StatTitle> }

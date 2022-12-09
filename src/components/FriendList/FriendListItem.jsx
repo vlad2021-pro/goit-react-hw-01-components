@@ -1,6 +1,6 @@
-import PropTypes from 'prop-types'
-import {FriendCase, FriendItem, FriendStatus, FriendAvatar, FriendName  } from './FriendListItem.styled'
-export const FriendListItem = ({avatar,name,isOnline}) => {
+  import PropTypes from 'prop-types'
+  import {FriendCase, FriendItem, FriendStatus, FriendAvatar, FriendName  } from './FriendListItem.styled'
+  export const FriendListItem = ({avatar,name,isOnline}) => {
   return <FriendCase>
   <FriendItem >
   <FriendStatus isOnline ={isOnline}></FriendStatus>
